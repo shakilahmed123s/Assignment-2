@@ -5,10 +5,11 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
-    /* background-color: #FFF4E7; */
 }
 /* start header section */
-
+header{
+    background-color: #FFF4E7;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,6 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
-   
 }
 nav ul li{
     list-style: none;
@@ -35,7 +35,9 @@ nav ul li a{
     color: #424242;
 }
 /* END NAV SECTION */
-
+.home-page-section{
+    background-color: #FFF4E7;
+}
 .brands-titel{
     text-align: center;
 }
@@ -51,12 +53,17 @@ nav ul li a{
 .btn-one{
     height: 65px;
     width: 180px;
-    background-color: tomato;
+    background-color: #FF900E;
     font-size: 20px;
     color: white;
     border: none;
     border-radius: 5px;
-    /* padding-top: 32px; */
+    transition: 0.6s;
+}
+.btn-one:hover{
+    background-color: white;
+    color: #FF900E;
+    border: 2px solid #FF900E;
 }
 .banner-img img{
     padding: 50px 0px;
@@ -81,11 +88,8 @@ nav ul li a{
 .team-img img{
     width: 100%;
 }
-.img-artical{
-    /* width: 50%; */
-    
+.img-artical{ 
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
 }
 .team-titel{
     font-size: 45px;
@@ -110,6 +114,11 @@ nav ul li a{
     color: white;
     background-color: #FF900E;
     
+}
+.btn-two:hover{
+    background-color: #FFF4E7;
+    color: #FF900E;
+    border: 2px solid #FF900E;
 }
 /* -=--------------------------------------------- */
 .all-artical, .articles-icons{
@@ -211,10 +220,28 @@ nav ul li a{
     /* justify-content: center; */
     text-align: center;
     /* margin: 0px; */
-    border: 1px solid #FF900E;
-    border-radius: 5px;
+   
+    
     padding: ;
 }
+.conteinar-box{
+    /* background-color: red; */
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+
+}
+.icons-div:hover{
+    /* background-color: tomato; */
+    /* color: white; */
+}
+/* .icons-div::after{
+    background-color: red;
+
+} */
+/* .icons-div h1:hover{
+    color: white;
+} */
 .icons-div h1{
     font-size: 45px;
     color: #424242;
