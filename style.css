@@ -34,7 +34,7 @@ nav ul li a{
     text-decoration: none;
     color: #424242;
 }
-/* END NAV SECTION */
+/*************** END NAV SECTION *******************/
 .home-page-section{
     background-color: #FFF4E7;
 }
@@ -69,11 +69,10 @@ nav ul li a{
     padding: 50px 0px;
     width: 1000px;
 }
-/* ------------------------------------- */
+/* ----------------end frist section--------------------- */
 .img-artical-drescription{
     background-color: white;
     width: 100%;
-    /* max-width: 1000px; */
     padding: 50px 200px;
     margin: 0px auto;
 }
@@ -113,14 +112,16 @@ nav ul li a{
     font-size: 20px;
     color: white;
     background-color: #FF900E;
+    transition: 0.5s;
     
 }
 .btn-two:hover{
     background-color: #FFF4E7;
     color: #FF900E;
     border: 2px solid #FF900E;
+   
 }
-/* -=--------------------------------------------- */
+/* -=----------------------end second sedtion----------------------- */
 .all-artical, .articles-icons{
     background-color: white;
     position: relative;
@@ -129,18 +130,13 @@ nav ul li a{
 .artical-boxs-img{
     width: 100%;
     max-width: 1000px;
-    /* background-color: rgb(243, 202, 202); */
     margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr)
-    
 }
-.artical-boxs{
-
-}
-.artical-box-one{
+/* .artical-box-one{
     width: ;
-}
+} */
 .box-titel-one{
     font-size: 45px;
     border-left: 5px solid #FF900E;
@@ -158,7 +154,6 @@ nav ul li a{
     padding: 10px 0px 0px 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.192);
-
 }
 .box-titel{
     font-size: 20px;
@@ -173,20 +168,21 @@ nav ul li a{
     width: 100%;
     padding-left: 40px;
 }
-.architect{
+/* .architect{
     
-}
+} */
 .btn-three{
     width: 200px;
     height: 100px;
     background-color: #FF900E;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     position: absolute;
     right: 0px;
     left: 0px;
     margin: auto;
-    top: 90vh;
+    top: 87vh;
+    
 }
 .btn-three h1{
     color: white;
@@ -196,11 +192,13 @@ nav ul li a{
     color: white;
 
 }
-/* ------------------end-------------- */
+/* ------------------end section-------------- */
+
+
+/************** start article section *******************/
 .articles-icons{
     width: 100%;
     max-width: 1000px;
-    /* background-color: red; */
     margin: 0px auto;
 }
 .some-facts{
@@ -215,21 +213,13 @@ nav ul li a{
 .icons-div{
     width: 180px;
     height: 150px;
-    /* background-color: tomato; */
-    /* align-items: center; */
-    /* justify-content: center; */
     text-align: center;
-    /* margin: 0px; */
-   
-    
     padding: ;
 }
 .conteinar-box{
-    /* background-color: red; */
     padding: 20px;
     border: 1px solid #FF900E;
     border-radius: 5px;
-
 }
 .icons-div:hover{
     /* background-color: tomato; */
@@ -254,7 +244,9 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
 }
-/* ---------------------- */
+/* ----------end icons section------------ */
+
+/* sponspors section */
 .our-sponspors{
     width: 100%;
     max-width: 1000px;
@@ -272,9 +264,6 @@ nav ul li a{
 .sponsors-img{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
     gap: 20px;
 }
 .sponspor-img{
@@ -288,7 +277,8 @@ nav ul li a{
     filter: grayscale(1);
     
 }
-/* ---------------------- */
+/* ---------end------------- */
+/* strat footer section */
 .footer{
     height: 80px;
     width: 100%;
@@ -297,42 +287,41 @@ nav ul li a{
     margin: 100px auto;
     text-align: center;
     border-radius: 10px;
-    /* position: relative; */
-    
 }
 .footer-tagline{
     font-size: 20px;
     color: #424242;
     padding-top: 30px;
-    
-    
 }
+/* *****************************************************
+end footer sestion******************************************************** */
 
 
-
+/* media  only phone */
 @media only screen and (max-width:576px){
     nav{
         flex-direction: column;
-        background-color: burlywood;
+        /* background-color: burlywood; */
         align-items: center;
     }
     nav ul{
         flex-direction: column;
         align-items: center;
-        background-color: red;
+        background-color: rgb(255, 255, 255);
         text-align: left;
-        
-       
     }
     nav ul a{
         font-size: 30px;
         padding: 30px 0px;
     }
-    nav ul li{
-        text-decoration: dotted;
+    .teams-img{
+        padding: 5px;
     }
-    ..brand-titel{
-        font-size: 16px;
+    
+    /* . */
+    .brand-titel{
+        font-size: 45px;
+        padding: 20px 0px;
     }
     .banner-img img{
         width: 100%;
@@ -352,35 +341,65 @@ nav ul li a{
     .teams-img{
         width: 100%;
     }
-    .btn-two{
-        justify-content: center;
-        /* padding-bottom: px; */
+    .btn-conteinar{
+        margin: 22px 100px;
     }
+   
     /* -----features----- */
     .artical-boxs-img{
         grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
 
+    }
+    .artical-box{
+        height: 130px;
+        padding: 0px 10px;
     }
     /* ----------- */
     .icons-hedding{
         flex-direction: column;
-        width;
+       
+    }
+    .architect img{
+        padding: 5px;
+    }
+    .some-facts{
+        padding: 10px;
+    }
+    .icons-hedding{
+        gap: 20px;
+    }
+    .btn-three{
+        position: absolute;
+        top: 133vh;
     }
     .icons-div{
         width: 100%;
         margin: 20px 0px;
+    }
+    .sponspor-drescription{
+        padding-bottom: 30px;
     }
     /* ------------------- */
     .sponsors-img{
         grid-template-columns: repeat(2, 1fr);
     }
     .sponspor-img img{
-        /* width: 100%; */
+        width: 100%;
     }
     .sponspor-img{
         width: 100%;
         padding: 10px;
     }
-    /* ------------------------ */
+    .footer-tagline{
+        padding: 0;
+    }
+    .footer{
+        height: 180px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
 
 }
