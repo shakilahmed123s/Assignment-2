@@ -221,17 +221,24 @@ nav ul li a{
     border: 1px solid #FF900E;
     border-radius: 5px;
 }
-.icons-div:hover{
-    /* background-color: tomato; */
-    /* color: white; */
-}
-/* .icons-div::after{
-    background-color: red;
+/* -------------conteinar-box hover------------------------ */
 
-} */
-/* .icons-div h1:hover{
+.conteinar-box:hover{
+    background-color: #CFCFCF;
     color: white;
-} */
+    transition: 0.9s;
+    border: none;
+    border: 1px solid white;
+}
+.conteinar-box:hover .icons-div h1{
+    color: white;
+    transition: 0.5s;
+}
+.conteinar-box:hover .icons-div h4{
+    color: white;
+    transition: 0.5s;
+}
+
 .icons-div h1{
     font-size: 45px;
     color: #424242;
