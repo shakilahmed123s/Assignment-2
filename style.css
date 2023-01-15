@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
-    background-color: #FFF4E7;
+    /* background-color: #FFF4E7; */
 }
 /* start header section */
 
@@ -112,7 +112,7 @@ nav ul li a{
     
 }
 /* -=--------------------------------------------- */
-.all-artical{
+.all-artical, .articles-icons{
     background-color: white;
     position: relative;
     
@@ -187,7 +187,99 @@ nav ul li a{
     color: white;
 
 }
-
+/* ------------------end-------------- */
+.articles-icons{
+    width: 100%;
+    max-width: 1000px;
+    /* background-color: red; */
+    margin: 0px auto;
+}
+.some-facts{
+    font-size: 45px;
+    color: #131313;
+    padding: 100px 0px 20px 0px;
+}
+.some-there{
+    color: #727272;
+    padding-bottom: 40px;
+}
+.icons-div{
+    width: 180px;
+    height: 150px;
+    /* background-color: tomato; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* margin: 0px; */
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: ;
+}
+.icons-div h1{
+    font-size: 45px;
+    color: #424242;
+}
+.icons-div h4{
+    font-size: 20px;
+    color: #727272;
+}
+.icons-hedding{
+    display: flex;
+    justify-content: space-around;
+}
+/* ---------------------- */
+.our-sponspors{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+}
+.sponspors-drescribtion{
+    text-align: center;
+}
+.sponspor-titel{
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+.sponsors-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    gap: 20px;
+}
+.sponspor-img{
+    width: 50px;
+    height: auto;
+    padding: 80px 20px;
+}
+.sponspor-img img{
+    width: 120px;
+    height: auto;
+    filter: grayscale(1);
+    
+}
+/* ---------------------- */
+.footer{
+    height: 80px;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #FFF4E7;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    /* position: relative; */
+    
+}
+.footer-tagline{
+    font-size: 20px;
+    color: #424242;
+    padding-top: 30px;
+    
+    
+}
 
 
 
@@ -242,5 +334,26 @@ nav ul li a{
         grid-template-columns: repeat(1, 1fr);
 
     }
+    /* ----------- */
+    .icons-hedding{
+        flex-direction: column;
+        width;
+    }
+    .icons-div{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /* ------------------- */
+    .sponsors-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponspor-img img{
+        /* width: 100%; */
+    }
+    .sponspor-img{
+        width: 100%;
+        padding: 10px;
+    }
+    /* ------------------------ */
 
 }
