@@ -168,9 +168,7 @@ nav ul li a{
     width: 100%;
     padding-left: 40px;
 }
-/* .architect{
-    
-} */
+
 .btn-three{
     width: 200px;
     height: 100px;
@@ -193,13 +191,75 @@ nav ul li a{
 
 }
 /* ------------------end section-------------- */
+/* new section */
 
+.last-conteinar{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: rgba(250, 243, 243, 0.322);
+    padding-top: 100px;
+}
+.last-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    
+}
+.last-box{
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.116);
+}
+/* ---------- */
+.last-box:hover{
+    background-color: #FF900E;
+    transition: 0.5s;
+}
+.last-box:hover .last-hedding{
+    color: white;
+    transition: 0.5s;
+}
+.last-box:hover .last-paragraph{
+    color: white;
+    transition: 0.5s;
+}
+.last-box:hover .last-para{
+    color: white;
+    transition: 0.5s;
+}
+/* ------- */
+.last-hedding{
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+.last-paragraph{
+    text-align: center;
+    padding: 10px;
+    color: rgba(27, 26, 26, 0.527);
+}
+.last-para{
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    bottom: 10px;
+    color: tomato;
+    
+}
+
+/* end new */
 
 /************** start article section *******************/
 .articles-icons{
     width: 100%;
     max-width: 1000px;
     margin: 0px auto;
+    
 }
 .some-facts{
     font-size: 45px;
@@ -308,13 +368,11 @@ end footer sestion******************************************************** */
 @media only screen and (max-width:576px){
     nav{
         flex-direction: column;
-        /* background-color: burlywood; */
         align-items: center;
     }
     nav ul{
         flex-direction: column;
         align-items: center;
-        background-color: rgb(255, 255, 255);
         text-align: left;
     }
     nav ul a{
@@ -324,8 +382,6 @@ end footer sestion******************************************************** */
     .teams-img{
         padding: 5px;
     }
-    
-    /* . */
     .brand-titel{
         font-size: 45px;
         padding: 20px 0px;
@@ -335,12 +391,10 @@ end footer sestion******************************************************** */
         padding: 20px;
     }
     .img-artical{
-        flex-direction: column;
-        
+        flex-direction: column-reverse;
     }
     .teams-img{
-       grid-template-columns: repeat(1, 1fr);
-       
+       grid-template-columns: repeat(1, 1fr); 
     }
     .img-artical-drescription{
         padding: 0;
@@ -356,7 +410,6 @@ end footer sestion******************************************************** */
     .artical-boxs-img{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
-
     }
     .artical-box{
         height: 130px;
@@ -365,11 +418,16 @@ end footer sestion******************************************************** */
     /* ----------- */
     .icons-hedding{
         flex-direction: column;
-       
     }
     .architect img{
         padding: 5px;
     }
+    /* new section */
+    .last-section{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* end new section */
     .some-facts{
         padding: 10px;
     }
