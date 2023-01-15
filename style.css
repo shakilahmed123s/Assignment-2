@@ -424,14 +424,13 @@ end footer sestion******************************************************** */
     }
     /* new section */
     .last-section{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        /* width: 100%; */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
         margin: 0px auto;
     }
     .last-box{
-        width: 180px;
-        
+        width: 70%;
+        margin: 0px auto;
     }
     /* end new section */
     .some-facts{
